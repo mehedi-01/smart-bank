@@ -16,8 +16,35 @@
             <input type="text" class="form-control" placeholder="Email">
             <br/>
             <input type="password" class="form-control" placeholder="Password">
-            <button class="btn btn-success">Enter</button>
+            <br/>
+            <button id="login" class="btn btn-success">Enter</button>
         </div>
     </div>
+    <div id="transaction-option">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Deposit</h5>
+                <h2>$100</h2>
+            </div>
+            <div class="col-md-4">
+                <h5>Withdraw</h5>
+                <h2>$200</h2>
+            </div>
+            <div class="col-md-4">
+                <h5></h5>
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+    <script>
+        const loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click",function(){
+            const loginArea = document.getElementById("login-area");
+            loginArea.style.display = "none";
+            const transactionArea = document.getElementById("transaction-option");
+            transactionArea.style.display= "block";
+
+        })
+    </script>
 </body>
 </html>
