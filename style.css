@@ -11,3 +11,6 @@ body{
 #transaction-option{
     display: none;
 }
+.dep{
+    background-color: tomato;
+}
