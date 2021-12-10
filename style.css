@@ -11,6 +11,19 @@ body{
 #transaction-option{
     display: none;
 }
-.dep{
-    background-color: tomato;
+.status{
+    margin: 0 25px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+.deposit{
+    background-color:seagreen;
+}
+.withdraw{
+    background-color: salmon;
+}
+.balance{
+    background-color: slateblue;
 }
